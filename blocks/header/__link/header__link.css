@@ -1,0 +1,21 @@
+.header__link {
+    font-size: 28px;
+    text-decoration: none;
+    color: #10191E;
+  }
+  
+  .header__link::after {
+    content: "!";
+  }
+  
+  .header__link[lang="ru"]::before {
+    content: 'Привет, меня зовут ';
+  }
+  
+  .header__link[lang="en"]::before {
+    content: 'Hello, my name is ';
+  }
+  
+  .header__link[lang="fr"]::before {
+    content: 'Bonjour, je suis ';
+  }

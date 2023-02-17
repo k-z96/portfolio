@@ -1,0 +1,22 @@
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .flex-row_reversed {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-row_space_bottom {
+    margin-bottom: 60px;
+  }
+  
+  .flex-column {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-column_reversed {
+    flex-direction: column-reverse;
+  }
